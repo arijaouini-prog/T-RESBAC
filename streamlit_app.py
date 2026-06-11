@@ -9,7 +9,7 @@ st.set_page_config(page_title="Suivi AMR Tunisia", layout="wide")
 st.title("🦠 Suivi des Résistances Bactériennes (Tunisia)")
 st.write("Données chargées en direct depuis la base de données SQLite.")
 
-DB_NAME = 'analyses.db'
+DB_NAME = 'FINALEE.db'
 
 if not os.path.exists(DB_NAME):
     st.error(f"Erreur : Le fichier '{DB_NAME}' est introuvable sur GitHub. Vérifie son nom.")
