@@ -5,7 +5,7 @@ import pandas as pd
 
 # 1. Configuration moderne de la page web
 st.set_page_config(
-    page_title="AMR Dashboard Tunisia", 
+    page_title="BARCA-DB Dashboard", 
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -20,7 +20,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 2. Titre principal avec design
-st.title("BACTERIAL ANTIBIOTIC RESISTANCE CARTHAGE AFRICA (BARCA-DB)")
+st.title("🦠 BACTERIAL ANTIBIOTIC RESISTANCE CARTHAGE AFRICA (BARCA-DB)")
 st.subheader("Observatoire de la résistance aux antimicrobiens — Tunisie")
 st.markdown("---")
 
