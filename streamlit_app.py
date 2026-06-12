@@ -20,7 +20,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 2. Titre principal avec design
-st.title("🧬 Plateforme de Suivi des Résistances Bactériennes")
+st.title("BACTERIAL ANTIBIOTIC RESISTANCE CARTHAGE AFRICA (BARCA-DB)")
 st.subheader("Observatoire de la résistance aux antimicrobiens — Tunisie")
 st.markdown("---")
 
